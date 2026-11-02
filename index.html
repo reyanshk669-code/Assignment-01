@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuteDude - Learning Platform</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to <mark>TuteDude</mark> Learning Platform</h1>
+        <p><strong>TuteDude</strong> is your <em>ultimate</em> destination for mastering new skills.</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+                <li><a href="#extras">Extras</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+        
+        <figure>
+            <img src="https://via.placeholder.com/800x300.png?text=TuteDude+Learning" alt="Students collaborating and learning online">
+            <figcaption>Join thousands of students achieving their goals through TuteDude.</figcaption>
+        </figure>
+    </header>
+
+    <hr>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- About Section -->
+        <section id="about">
+            <h2>About TuteDude</h2>
+            <details>
+                <summary>Click here to learn what makes TuteDude special</summary>
+                <p>We provide comprehensive tutorials in <abbr title="HyperText Markup Language">HTML</abbr> and other programming languages to kickstart your web development journey.</p>
+            </details>
+            
+            <blockquote cite="https://en.wikipedia.org/wiki/Education">
+                "The beautiful thing about learning is that no one can take it away from you."
+                <br>
+                <cite>- B.B. King</cite>
+            </blockquote>
+        </section>
+
+        <hr>
+
+        <!-- Menu Section -->
+        <section id="menu">
+            <h2>TuteDude Brain-Food Menu</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Course / Item</th>
+                        <th>Description</th>
+                        <th>Nutrition Information (Stats)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>The HTML Hamburger</td>
+                        <td>A foundational course packed with structural elements.</td>
+                        <td>
+                            <table border="1">
+                                <tr>
+                                    <th>Knowledge Calories</th>
+                                    <td>500 Bytes</td>
+                                </tr>
+                                <tr>
+                                    <th>Logic Protein</th>
+                                    <td>50g</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CSS Smoothie</td>
+                        <td>A colorful blend of styles, layouts, and animations.</td>
+                        <td>
+                            <table border="1">
+                                <tr>
+                                    <th>Knowledge Calories</th>
+                                    <td>250 Bytes</td>
+                                </tr>
+                                <tr>
+                                    <th>Creativity Vitamins</th>
+                                    <td>100% DV</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">All courses are freshly updated for 2026 web standards.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Trivia Section -->
+        <section id="trivia">
+            <aside>
+                <h2>Did You Know? (Trivia)</h2>
+                <ul>
+                    <li>TuteDude was conceptualized over a single cup of coffee.</li>
+                    <li>HTML was originally created by Tim Berners-Lee in 1993.</li>
+                    <li>Over 10,000 students have built their first website using our platform!</li>
+                </ul>
+            </aside>
+        </section>
+
+        <hr>
+
+        <!-- Extras Section -->
+        <section id="extras">
+            <h2>Extras</h2>
+            
+            <h3>Listen to our Welcome Podcast</h3>
+            <audio controls>
+                <source src="welcome-podcast.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            
+            <h3>Watch our Platform Tour</h3>
+            <video width="400" controls>
+                <source src="platform-tour.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <hr>
+
+        <!-- Feedback Form Section -->
+        <section id="feedback">
+            <h2>Send Us Your Feedback</h2>
+            <form action="/submit-form" method="POST">
+                <label for="userName">Name:</label><br>
+                <input type="text" id="userName" name="userName" required><br><br>
+                
+                <label for="userEmail">Email:</label><br>
+                <input type="email" id="userEmail" name="userEmail" required><br><br>
+                
+                <label for="courseSelect">Favorite Subject:</label><br>
+                <select id="courseSelect" name="courseSelect">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JavaScript</option>
+                    <option value="python">Python</option>
+                </select><br><br>
+                
+                <label for="userMessage">Comments:</label><br>
+                <textarea id="userMessage" name="userMessage" rows="5" cols="40" required></textarea><br><br>
+                
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <address>
+            <strong>Contact TuteDude:</strong><br>
+            Email: <a href="mailto:hello@tutedude.com">hello@tutedude.com</a><br>
+            123 Knowledge Blvd, Web City, Internet 404
+        </address>
+        <p><small>&copy; 2026 TuteDude Learning Platform. All rights reserved.</small></p>
+    </footer>
+
+</body>
+</html>
